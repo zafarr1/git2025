@@ -5,7 +5,7 @@ variable "region" {
 
 variable "project_name" {
   description = "Project name"
-  default     = "myapp"
+  default     = "tf1"
 }
 
 variable "vpc_cidr" {
