@@ -241,7 +241,7 @@ Resources:
         - !Ref PublicSubnet # Launch instances in the public subnet
       LaunchTemplate:
         LaunchTemplateId: !Ref KamranLaunchTemplate
-        Version: "1.0"
+        Version: "1"
       Tags:
         - Key: "Name"
           Value: "KamranASG1"
@@ -284,4 +284,3 @@ Outputs:
   ASGName:
     Description: "Auto Scaling Group Name"
     Value: !Ref KamranASG
-
