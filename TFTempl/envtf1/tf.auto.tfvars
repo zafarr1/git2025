@@ -2,7 +2,7 @@
 
 region               = "us-east-1"
 project_name         = "TF1"
-key_name             = "my-ec2-keypair"
+key_name             = "mbkeys"
 db_username          = "admin"
 db_password          = "Password12345"
 
